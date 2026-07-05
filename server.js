@@ -9,7 +9,7 @@ const { errorHandler } = require('./middleware/errorHandler');
 
 const careerRoutes = require('./routes/careerRoutes');
 const userRoutes = require('./routes/userRoutes');
-const chatRoutes = require('./routes/chatRoutes');   // NEW
+//const chatRoutes = require('./routes/chatRoutes');   // NEW
 
 const app = express();
 
@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // API Routes
 app.use('/api/career', careerRoutes);
 app.use('/api/users', userRoutes);
-app.use('/api/chat', chatRoutes);     // NEW
+//app.use('/api/chat', chatRoutes);     // NEW
 
 // Health Check
 app.get('/api/health', (req, res) => {
