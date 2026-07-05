@@ -10,7 +10,7 @@ An AI-powered career guidance agent built with **Node.js, Express, MongoDB (Mong
 - **Backend:** Node.js, Express.js (MVC architecture)
 - **AI:** Google Gemini API (`@google/generative-ai`)
 - **Database:** MongoDB with Mongoose
-- **Deployment:** Render (no Docker)
+- **Deployment:** Render 
 
 ## 2. Folder Structure
 
