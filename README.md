@@ -170,3 +170,7 @@ Visit the live URL, submit the career form, and confirm the report generates and
 - The AI Agent logic (module orchestration) lives in `services/careerAgentService.js`.
 - Prompts are modular and stored in `/prompts` for easy tuning without touching business logic.
 - Input validation happens both client-side (`public/js/form.js`) and server-side (`middleware/validateInput.js`).
+
+
+
+
